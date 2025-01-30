@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BASE_DIR="font_transformer/scripts/classification"
+BASE_DIR="truetype_vs_postscript_transformer/scripts/classification"
 TYPES="style weight"
 FORMATS="original_truetype decomposed_truetype segmented_truetype postscript"
 
