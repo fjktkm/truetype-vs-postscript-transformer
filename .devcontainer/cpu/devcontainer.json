@@ -1,0 +1,34 @@
+{
+	"name": "truetype-vs-postscript-transformer/cpu",
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"mounts": [
+		{
+			"target": "${containerWorkspaceFolder}/.venv",
+			"type": "volume",
+			"source": "truetype-vs-postscript-transformer-venv"
+		},
+		{
+			"target": "${containerWorkspaceFolder}/fonts",
+			"type": "volume",
+			"source": "truetype-vs-postscript-transformer-fonts"
+		}
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff",
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.tensorboard",
+				"tamasfe.even-better-toml"
+			]
+		}
+	},
+	"postCreateCommand": "uv venv --allow-existing && uv sync --frozen"
+}

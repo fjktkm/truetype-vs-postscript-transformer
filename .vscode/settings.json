@@ -1,0 +1,21 @@
+{
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll.ruff": "explicit",
+        "notebook.source.organizeImports.ruff": "explicit"
+    },
+    "ruff.nativeServer": "on",
+    "ruff.configuration": "./pyproject.toml",
+    "python.analysis.exclude": [
+        "**/__pycache__",
+        "**/build",
+        ".git",
+        ".venv",
+        "fonts",
+    ],
+    "python.analysis.extraPaths": [
+        "./truetype_vs_postscript_transformer"
+    ],
+    "python.analysis.typeCheckingMode": "standard",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+}
