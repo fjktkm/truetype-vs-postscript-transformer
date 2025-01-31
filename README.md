@@ -1,8 +1,8 @@
-# Transformer-Based Vector Font Classification using Different Font Formats: TrueType versus PostScript
+# Transformer-Based Vector Font Classification Using Different Font Formats: TrueType versus PostScript
 
 ## Overview
 
-This repository contains the code for the paper "Transformer-Based Vector Font Classification using Different Font Formats: TrueType versus PostScript".
+This repository contains the code for the paper "Transformer-Based Vector Font Classification Using Different Font Formats: TrueType versus PostScript".
 
 ## Usage
 
